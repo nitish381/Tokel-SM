@@ -50,7 +50,9 @@ Issue, distribute, and govern compliant tokenized securities across real estate,
 
 ## 2. Graphic style & imagery
 
-**Core rule: Tokel visuals are 3D abstract architecture, not realistic third-party stock photos.**
+**Two approved image styles:**
+1. **Hero photography (social covers & banners):** the landing-page hero's realistic, motion-blurred city skyline over water, with the navy overlay. This is the **approved style for X, LinkedIn and YouTube covers** (Figma page *Social Media*, cover set 1749:739). Reuse that exact image, not new stock.
+2. **3D abstract architecture (posts, ads, decks, website sections):** glass/blue cubes, towers and blocks. **Don't use generic third-party stock photos** (handshakes, offices, coins).
 
 | Use ✅ | Avoid ❌ |
 |---|---|
@@ -61,7 +63,7 @@ Issue, distribute, and govern compliant tokenized securities across real estate,
 | Product UI mockups in frosted glass frames (dashboards, marketplace, code editor) | Low-resolution screenshots without a frame |
 | Floating glass "investment cards" ($10k, NAV, AUM, Subscribe) as hero objects | |
 
-**Exceptions already in the design:** the website hero uses a blurred city skyline with a navy overlay (`#012D5E` → transparent), and the Leadership section uses real team portraits with a navy scrim. Keep real photography to those two cases.
+**Where real photography is used:** the website hero and the social cover set use the blurred city skyline with a navy overlay (`#012D5E` → transparent), and the Leadership section uses real team portraits with a navy scrim. Keep real photography to these cases.
 
 **Image treatments**
 - Navy overlay on photos: `linear-gradient(to bottom, #012D5E 0%, rgba(1,45,94,0) 57.6%)`.
@@ -145,7 +147,13 @@ Always design at the exact pixel size below, export PNG (graphics/text) or JPG �
 
 *Sizes reflect platform guidance current as of Nov 2026; platforms change specs, so re-check before a major campaign.*
 
-### 3.7 How to build a Tokel social graphic
+### 3.7 Approved cover set (Figma)
+Page **Social Media** in the Tokel Figma file, section "Tokel Cover Set — one key visual, 3 platform crops":
+- **X header 1500×500** (frame 1749:740) · **LinkedIn personal cover 1584×396** (1749:777) · **YouTube banner 2560×1440** (1749:814).
+- One key visual on all three: hero skyline photo + navy overlays + teal glow + the hero glass card "Real Estate – $10k" (instance of `Final-Animation` 332:288) + headline "The Institutional Infrastructure for **Tokenized Real-World Assets.**" + subline + `tokel.org` and asset-class pills.
+- Each frame has hidden guide layers for its safe zone and profile-photo overlap. Export PNG at 1x (2x for X/LinkedIn if you want extra sharpness).
+
+### 3.8 How to build a Tokel social graphic
 **Cover / banner (LinkedIn, X, YouTube, Facebook)**
 1. Background: midnight `#010115` or the brand gradient `#000088 → #001D6B`.
 2. 3D abstract building / glass-cube cluster on the **right**, bleeding off the edge.
